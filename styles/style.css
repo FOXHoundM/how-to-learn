@@ -17,10 +17,8 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  padding-left: 64px;
 
   /* выше установили ограничения для секции */
-
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -29,9 +27,9 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  right: 0;
-  top: 54px;
+  top: 64px;
   z-index: -1;
+  right: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -50,14 +48,12 @@
 }
 
 .header__title {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   max-width: 730px;
   font-size: 102px;
   font-weight: 700;
   line-height: 96px;
-  left: 64px;
+  margin-left: 64px;
 }
 
 .header__subtitle {
@@ -68,6 +64,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__link {
@@ -81,6 +78,7 @@
   bottom: 0;
   width: 765px;
   height: 608px;
+  object-fit: cover;
 }
 
 .content {
@@ -149,7 +147,6 @@
   text-align: center;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
   max-width: 60%;
 }
 
@@ -169,11 +166,10 @@
 }
 
 .table__heading {
-  margin: 0;
+  margin: 0 0 20px 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
 .table__text {
@@ -189,6 +185,9 @@
   position: relative;
   margin: 100px auto 0 auto;
   height: 890px;
+background-image: url("../images/feynman.png");
+background-repeat: no-repeat;
+background-position: left bottom;
 }
 
 .feynman__title {
@@ -199,7 +198,7 @@
   font-weight: 700;
   text-align: center;
   z-index: 1;
-  margin: 100px auto 70px auto;
+  margin-bottom: 70px;
 }
 
 .feynman__subtitle {
@@ -211,9 +210,8 @@
   z-index: 1;
 }
 
+
 .feynman__image {
-  position: absolute;
-  bottom: 0;
   width: 867px;
   height: 637px;
 }
@@ -306,7 +304,6 @@
 }
 
 .footer__column_content_info {
-  flex-direction: column;
 }
 
 .footer__column-heading {
@@ -318,12 +315,19 @@
 }
 
 .footer__column-links {
-  margin: 20px 0 16px 0;
+  margin: 20px 0 16px;
+}
+.footer__column-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-links li {
+  list-style-type: none;
 }
 
 .footer__column-link {
   display: flex;
-  flex-direction: row;
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
@@ -335,9 +339,8 @@
 }
 
 .footer__social-icon {
+  align-items: center;
   width: 16px;
   height: 16px;
-  margin-right: 10px;
-  padding: 0;
-  align-self: center;
+  margin: auto 10px auto 0;
 }

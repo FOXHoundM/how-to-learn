@@ -17,7 +17,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-
+background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -28,7 +28,6 @@
   width: 568px;
   background-color: #2f80ed;
   top: 64px;
-  z-index: -1;
   right: 0;
 }
 
@@ -45,6 +44,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__title {
@@ -55,6 +55,7 @@
   font-weight: 700;
   line-height: 96px;
   margin-left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -66,6 +67,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  z-index: 2;
 }
 
 .header__link {
@@ -80,6 +82,7 @@
   width: 765px;
   height: 608px;
   object-fit: cover;
+  z-index: 1;
 }
 
 .content {

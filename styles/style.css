@@ -90,6 +90,7 @@ background-color: #f2f2f2;
 
 .description {
   margin: 100px auto;
+  background-color: #f2f2f2;
 }
 
 .two-columns {
@@ -135,6 +136,7 @@ background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f2f2f2;
 }
 
 .section-title {
@@ -192,6 +194,7 @@ background-color: #f2f2f2;
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: left bottom;
+  background-color: #f2f2f2;
 }
 
 .feynman__title {

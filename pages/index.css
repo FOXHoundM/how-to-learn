@@ -1,0 +1,35 @@
+/*Normalize CSS*/
+@import url("../vendor/normalize.css");
+
+/*Page*/
+@import url("../blocks/page/page.css");
+
+/*Блок Header*/
+@import url("../blocks/header/hedaer.css");
+@import url("../blocks/header/__title/header__title.css");
+@import url("../blocks/header/__subtitle/header__subtitle.css");
+@import url("../blocks/header/__link/header__link.css");
+@import url("../blocks/header/__main-illustration/header__main-illustration.css");
+@import url("../blocks/header/__square-pic/header__square-pic.css");
+@import url("../blocks/header/__square-pic/_rotation/header__square-pic_rotation.css");
+
+/*Logo*/
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/logo/_place/logo_place_header.css");
+@import url("../blocks/logo/_place/logo_place_footer.css");
+
+/*Main class="content"*/
+@import url("../blocks/content/content.css");
+
+/*Блок Description*/
+@import url("../blocks/description/description.css");
+@import url("../blocks/description/two-columns/two-columns.css");
+@import url("../blocks/description/__brief/two-columns__brief.css");
+@import url("../blocks/description/__main-text/two-columns__main-text.css");
+@import url("../blocks/description/__paragraph/two-columns__paragraph.css");
+@import url("../blocks/description/__span-accent/two-columns__span-accent.css");
+
+
+
+
+

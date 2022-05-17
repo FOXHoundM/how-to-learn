@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css">
+
+    <!--Надо в конце удалить-->
     <link rel="stylesheet" href="./styles/style.css" />
 
-    <meta name="description" content="Проектная работа Микаэля на Практикуме" />
+
+    <meta name="description" content="Проектная работа 2 Микаэля на Практикуме" />
     <meta name="keywords" content="HTML, CSS" />
     <meta name="author" content="Гюльмамедов Микаэль" />
     <title>Научиться учиться</title>
@@ -32,7 +36,7 @@
         src="./images/header-image.png"
         alt="Изображение в блоке шапка"
       />
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic header__square-pic_rotation"></div>
     </header>
 
     <main class="content">
@@ -61,6 +65,51 @@
             </p>
           </div>
         </article>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="./images/cards-attention.png" alt="изображение два вида" class="cards__image">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
+            </p>
+          </li>
+
+          <li class="cards__item">
+            <img src="./images/cards-recall.png" alt="изображение рекол" class="cards__image">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="./images/cards-interliving.png" alt="изображение интерливинг" class="cards__image">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="./images/cards-question.png" alt="изображение вопросы" class="cards__image">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="./images/cards-competence.png" alt="изображение иллюзия" class="cards__image">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </li>
+        </ul>
+
+
+
+
+
+
+
       </section>
 
       <section class="digits">
@@ -276,5 +325,7 @@
         </div>
       </div>
     </footer>
+
+
   </body>
 </html>

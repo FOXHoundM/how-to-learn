@@ -1,7 +1,8 @@
 .techniques {
   width: 80%;
-  margin: 100px auto;
+  margin: 0 auto;
 padding: 100px 0 0 0;
+
 
   border: 1px solid red;
 }
@@ -12,6 +13,9 @@ padding: 100px 0 0 0;
 }
 
 .section-subtitle {
+margin: 20px 0 0 0;
+padding: 0;
+
   border: 1px solid red;
 }
 
@@ -30,6 +34,7 @@ list-style-type: none;
   flex-direction: column;
   align-items: center;
   margin: 60px 100px 0 0;
+  padding: 0;
 
 
   border: 1px solid red;
@@ -51,6 +56,8 @@ list-style-type: none;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
 
   border: 1px solid red;
 }
@@ -58,6 +65,7 @@ list-style-type: none;
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
+  margin: 16px 0 0 0;
 
   border: 1px solid red;
 }
